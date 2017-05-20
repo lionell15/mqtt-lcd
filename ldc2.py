@@ -4,7 +4,7 @@ import Adafruit_DHT
 
 from RPLCD import CharLCD
 
-lcd = CharLCD(cols=16, rows=2, pin_rs=37, pin_e=35, pins_data=[33, 31, 29, 23])
+lcd = CharLCD(cols=16, rows=2, pin_rs=7, pin_e=8, pins_data=[25, 24, 23, 18])
 
 
 while True:
